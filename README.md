@@ -4,7 +4,7 @@ OnlyOneBiome replaces the biome palette of each chunk when Axolotl-PM loads that
 
 ## Requirements and compatibility
 
-- Axolotl-PM API 5.0.0, as declared in [`plugin.yml`](plugin.yml). PHPStan at maximum level and a chunk transformation test pass against the 5.0.0 and 5.49.1 source revisions. Intermediate releases have not been tested.
+- Axolotl-PM API 5.0.0, as declared in [`plugin.yml`](plugin.yml). PHPStan at maximum level and a chunk transformation test pass against the 5.0.0 and 5.51.1 source revisions. Intermediate releases have not been tested.
 - PHP 8.1 or newer, as required by those Axolotl-PM source revisions.
 - No external plugin or runtime library dependency.
 
