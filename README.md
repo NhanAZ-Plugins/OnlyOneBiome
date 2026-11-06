@@ -26,9 +26,9 @@ The plugin changes chunks as they load after it is enabled, including existing c
 
 ## Build and verification
 
-The [build workflow](.github/workflows/build.yml) tests biome transformation with Axolotl-PM source and runs PHPStan at maximum level. It then uses [DevTools](https://github.com/NhanAZ/DevTools) to build and inspect a downloadable PHAR. The workflow pins DevTools and Axolotl-PM source to reviewed commits.
+The [build workflow](.github/workflows/build.yml) tests biome transformation with Axolotl-PM source and runs PHPStan at maximum level. It then uses [DevTools](https://github.com/AxolotlBucketLabs/DevTools) to build and inspect a downloadable PHAR. The workflow pins DevTools and Axolotl-PM source to reviewed commits.
 
-To run the chunk test locally, provide an installed Axolotl-PM source directory: `php tests/chunk-transformer.php /path/to/Axolotl-PM`. For a local PHAR build, follow the [DevTools CLI guide](https://github.com/NhanAZ/DevTools/blob/main/docs/cli.md) with this repository as the project directory. The chunk test checks biome values and block preservation; it does not prove how a connected Bedrock client renders the result.
+To run the chunk test locally, provide an installed Axolotl-PM source directory: `php tests/chunk-transformer.php /path/to/Axolotl-PM`. For a local PHAR build, follow the [DevTools CLI guide](https://github.com/AxolotlBucketLabs/DevTools/blob/main/docs/cli.md) with this repository as the project directory. The chunk test checks biome values and block preservation; it does not prove how a connected Bedrock client renders the result.
 
 ## Support, authors and license
 
